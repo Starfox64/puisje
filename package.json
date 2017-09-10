@@ -1,0 +1,29 @@
+{
+	"name": "puisje",
+	"version": "1.0.0",
+	"description": "Fine grained authorization made easy.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Starfox64/puisje.git"
+	},
+	"keywords": [
+		"authorization",
+		"groups",
+		"roles",
+		"permissions",
+		"inheritance"
+	],
+	"author": "Starfox64 <louisdijon21@yahoo.fr>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Starfox64/puisje/issues"
+	},
+	"homepage": "https://github.com/Starfox64/puisje#readme",
+	"devDependencies": {
+		"eslint": "^4.6.1"
+	}
+}
