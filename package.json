@@ -24,6 +24,8 @@
 	},
 	"homepage": "https://github.com/Starfox64/puisje#readme",
 	"devDependencies": {
-		"eslint": "^4.6.1"
+		"chai": "^4.1.2",
+		"eslint": "^4.6.1",
+		"mocha": "^3.5.2"
 	}
 }
