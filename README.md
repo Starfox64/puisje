@@ -22,6 +22,7 @@ A role is a list of permission that can either be:
 
 A role can also inherit from another role, roles that do not inherit from any roles will inherit from the `@` role.
 Think of this role as the root of the inheritance tree or just a role representing everyone.
+
 This role has an additional property: `defaultPolicy` which defaults to **Denied** but can be changed to **Granted**.
 
 ### Permissions
@@ -46,10 +47,12 @@ Becomes:
 - `storage:user>create,read,delete`
 
 Keep in mind that if you were to have a `storage:user:delete:bulk` permission, the previous summarization notation would also grant access to it.
+
 A permission can only contain case insensitive alphanumeric characters, whitespace characters will automatically be removed.
 
 #### Permission Precedence
 Permission precedence means that the permissions with the least amount of tokens (names separated by _:_ or _>_) are applied first and the ones with most amount of tokens are applied last.
+
 Two permissions with the same precedence will be applied in the order they are declared.
 
 Example:
